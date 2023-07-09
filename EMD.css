@@ -1,0 +1,301 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+  ;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.top {
+  background-image: url("gente-negocios-dandose-mano_53876-13391.avif");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+  height: 650px;
+  margin-top: 0;
+  display: flex;
+}
+
+.top.fade-in {
+  background-image: url("todos-sonrien-escuchan-grupo-personas-conferencia-negocios-aula-moderna-dia_146671-16288.avif");
+  filter: blur(30px);
+}
+
+.top.fade-in.loaded {
+  filter: blur(0);
+}
+
+.top.fade-in.loaded.next {
+  background-image: url("concepto-control-calidad-estandar-m_23-2150041866.avif");
+}
+
+img {
+  width: 250px;
+  height: 125px;
+}
+
+.eslogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+  ;
+  display: inline;
+}
+
+li {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+
+
+h1 {
+
+  justify-content: center;
+
+  margin-top: 50px;
+  padding-left: 30px;
+  font-family: "Bungee_Shade", sans-serif;
+  font-size: 40px;
+
+}
+
+.formacion {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  padding-left: 30px;
+  font-family: "Bungee_Shade", sans-serif;
+  font-size: 40px;
+  width: 80%;
+}
+
+
+
+
+.logo {
+  width: 250px;
+  height: 125px;
+}
+
+#enlaces_top:hover {
+  color: black;
+  background-color: white;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .text {
+  flex: 1;
+  font-size: 30px;
+  padding: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.container .image {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  display: flex;
+
+}
+
+.image {
+  width: 50%;
+  height: 400px;
+  border-radius: 15px;
+}
+
+@media (max-width: 1300px) {
+
+  .container .text,
+  .container .image {
+    flex: 100%;
+  }
+
+  .container.text {
+    font-size: 5px;
+  }
+
+  .image {
+    width: 30%;
+    height: 300px;
+    border-radius: 15px;
+  }
+
+  .undefined_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: stretch;
+    padding: 20px;
+    padding-bottom: 250px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: gray;
+    width: 100%;
+    
+  }
+
+  .another_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .formacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .another_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+  }
+  #fixed-div{
+    background-color: grey;
+    width: 100%;
+    height: 100px;
+  }
+}
+
+h4 {
+  padding: 20px;
+  align-items: center;
+}
+
+.undefined_list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 250px;
+  padding: 20px;
+  
+}
+
+li {
+  padding: 15px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.enlaces {
+  display: flex;
+}
+
+.button_up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.button {
+  padding: 20px;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+}
+
+hr {
+  background-color: white;
+  color: white;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#fixed-div{
+  position: fixed;
+}
+#fixed-div {
+  position: fixed;
+  transition: background-color 0.5s ease; /* Transición suave del color de fondo */
+}
+
+#fixed-div.gray-bg {
+  background-color: gray;
+  height: 125px;
+  width: 100%;
+}
+.nothing_3{
+  background-color: none;
+  border: none;
+  padding: 40px;
+}
+.nothing_2{
+  padding: 50px;
+  background-color: none;
+  border: none;
+}
+.nothing_1{
+  padding: 0px;
+  background-color: none;
+  border: none;
+}
+#abajo{
+  display: flex;
+  justify-content: center;
+}
+.icon{
+  color: black;
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#info{
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.info_icon{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
